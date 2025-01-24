@@ -29,7 +29,7 @@ let addEmoji = (emj , index)=> {
      {
         emojiList.map((emj, index)=>
            <span className='span' key ={index}  onClick={()=>addEmoji(emj, index)}
-           style={{fontSize: '22px', cursor: 'pointer'}}> {emj}</span>
+           style={{fontSize: '22px', cursor: 'pointer', margin: '2px'}}> {emj}</span>
         )
     } 
    </div>
