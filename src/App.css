@@ -1,0 +1,43 @@
+.App {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+height: 100vh;
+background-color: rgb(139, 173, 236);
+}
+.container{
+  background: aliceblue;
+  height: max-content;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 20px 0;
+  padding: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+h1{
+  color: white;
+  font-size: 40px;
+}
+.span:hover{
+  border: 1px solid rgb(172, 169, 169);
+  border-radius: 2px;
+}
+
+.showEmoji{
+  width: 80%;
+  min-height: 20px;
+  max-width: 314px;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display:flex;
+  flex-wrap: wrap;
+  margin: 10px auto;
+  padding: 10px 5px;
+  background: aliceblue;
+}
