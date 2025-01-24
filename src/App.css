@@ -3,7 +3,8 @@ display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
-height: 100vh;
+min-height: 100vh;
+max-height: max-content;
 background-color: rgb(139, 173, 236);
 }
 .container{
