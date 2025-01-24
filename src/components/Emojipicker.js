@@ -34,7 +34,7 @@ let addEmoji = (emj , index)=> {
     } 
    </div>
    <div className="showEmoji">
-    {ShowEmoji  && <span style={{fontSize: '20px', margin: '4px'}}>{ShowEmoji}</span>}
+    {ShowEmoji  && <span style={{fontSize: '20px', padding: '4px'}}>{ShowEmoji}</span>}
    </div>
    
    </>
